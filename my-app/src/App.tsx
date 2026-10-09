@@ -5,10 +5,10 @@ import Rodape from "./components/Rodape"
 
 export default function App() {
   return (
-    <div className="container1">
-      <Cabecalho/>
-      <Outlet/>
-      <Rodape/>
+    <div className="principal">
+      <Cabecalho />
+      <Outlet />
+      <Rodape />
     </div>
 
   )
